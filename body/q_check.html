@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>診断スタート！</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+</script>
+
+<div class="choose_box">
+  <div class="app-theme">
+    <p>さくっと診断！お悩み別！診断(全5問)</p>
+  </div>
+
+ <!-- ここから５つ質問を記述 -->
+<!-- 質問1 -->
+<div id="q_01" class="fit">
+  <p>質問1:　あなたが一番求めるものは”？</p>
+  <ul>
+    <li><a class="btn" href="#q_02" data-value="a">A</a></li>
+    <li><a class="btn" href="#q_02" data-value="b">B</a></li>
+    <li><a class="btn" href="#q_02" data-value="c">C</a></li>
+    <li><a class="btn" href="#q_02" data-value="d">C</a></li>
+    <li><a class="btn" href="#q_02" data-value="e">E</a></li>
+  </ul>
+</div>
+
+<!-- 質問2 -->
+<div id="q_02" style="display: none;">
+  <p>質問2:　あなたが一番気になるのは？</p>
+  <ul>
+    <li><a class="btn" href="#q_03" data-value="a">A</a></li>
+    <li><a class="btn" href="#q_03" data-value="b">B</a></li>
+    <li><a class="btn" href="#q_03" data-value="c">C</a></li>
+    <li><a class="btn" href="#q_03" data-value="d">D</a></li>
+    <li><a class="btn" href="#q_03" data-value="e">E</a></li>
+  </ul>
+</div>
+
+<!-- 質問3 -->
+<div id="q_03" style="display: none;">
+  <p>質問3:　あなたの理想像は？</p>
+  <ul>
+    <li><a class="btn" href="#q_04" data-value="a">A</a></li>
+    <li><a class="btn" href="#q_04" data-value="b">B</a></li>
+    <li><a class="btn" href="#q_04" data-value="c">C</a></li>
+    <li><a class="btn" href="#q_04" data-value="d">D</a></li>
+    <li><a class="btn" href="#q_04" data-value="e">E</a></li>
+  </ul>
+</div>
+
+<!-- 質問4 -->
+<div id="q_04" style="display: none;">
+  <p>質問4:　</p>
+  <ul>
+    <li><a class="btn" href="#q_05" data-value="a">A</a></li>
+    <li><a class="btn" href="#q_05" data-value="b">B</a></li>
+    <li><a class="btn" href="#q_05" data-value="c">C</a></li>
+    <li><a class="btn" href="#q_05" data-value="d">D</a></li>
+    <li><a class="btn" href="#q_05" data-value="e">E</a></li>
+  </ul>
+</div>
+
+<!-- 質問5 -->
+<div id="q_05" style="display: none;">
+  <p>質問5:　</p>
+  <ul>
+    <li><a class="btn end" data-value="a">A</a></li>
+    <li><a class="btn end" data-value="b">B</a></li>
+    <li><a class="btn end" data-value="c">C</a></li>
+    <li><a class="btn end" data-value="d">D</a></li>
+    <li><a class="btn end" data-value="e">E</a></li>
+  </ul>
+</div>
+
+
+
+<!-- ここから以下回答 -->
+<!-- 回答の答え1 -->
+<div id="answer_01" class="result" style="display: none;">
+  <div class="result_theme ">
+        <p>あなたにおすすめなケアは</p>
+  </div>
+  <div class="result_type0 ">
+        <h4>answer_1</h4>
+  </div>
+  <div class="result_discription0">
+    <h2>〇〇〇</h2>
+    <p>
+      　〇〇〇
+    </p>
+  </div>
+  <!-- 帰還ボタン -->
+  <div class="back-btn">
+    <button class="res-btn" onclick="location.href='q_check.html'">もう一度診断する</button>
+    <button class="home-btn" onclick="location.href='../home.html'">ホームに戻る</button>   <!-- 上位階層へ行く際は「../」つける -->
+  </div>
+</div>
+
+
+
+<!-- 回答の答え2 -->
+<div id="answer_02" style="display: none;">
+  <div class="result_theme ">
+        <p>あなたにおすすめなケアは</p>
+  </div>
+  <div class="result_type1 ">
+        <h4>answer_2</h4>
+  </div>
+  <div class="result_discription1">
+    <h2>〇〇〇</h2>
+    <p>
+      　〇〇〇
+    </p>
+  </div>
+  <!-- 帰還ボタン -->
+  <div class="back-btn">
+    <button class="res-btn" onclick="location.href='q_check.html'">もう一度診断する</button>
+    <button class="home-btn" onclick="location.href='../home.html'">ホームに戻る</button>  
+  </div>
+</div>
+
+<!-- 回答の答え3 -->
+<div id="answer_03" style="display: none;">
+  <div class="result_theme ">
+        <p>あなたにおすすめなケアは</p>
+  </div>
+  <div class="result_type1 ">
+        <h4>answer_3</h4>
+  </div>
+  <div class="result_discription1">
+    <h2>〇〇〇</h2>
+    <p>
+      　〇〇〇
+    </p>
+  </div>
+  <!-- 帰還ボタン -->
+  <div class="back-btn">
+    <button class="res-btn" onclick="location.href='q_check.html'">もう一度診断する</button>
+    <button class="home-btn" onclick="location.href='../home.html'">ホームに戻る</button>  
+  </div>
+</div>
+
+
+<!-- 回答の答え4 -->
+<div id="answer_04" style="display: none;">
+  <div class="result_theme ">
+        <p>あなたにおすすめなケアは</p>
+  </div>
+  <div class="result_type1 ">
+      <h4>answer_4</h4>
+  </div>
+    <div class="result_discription1">
+    <h2>〇〇〇</h2>
+    <p>
+      　〇〇〇
+    </p>
+  </div>
+  <!-- 帰還ボタン -->
+  <div class="back-btn">
+    <button class="res-btn" onclick="location.href='q_check.html'">もう一度診断する</button>
+    <button class="home-btn" onclick="location.href='../home.html'">ホームに戻る</button>  
+  </div>
+</div>
+
+
+<!-- 回答の答え5 -->
+<div id="answer_05" style="display: none;">
+  <div class="result_theme ">
+        <p>あなたにおすすめなケアは</p>
+  </div>
+  <div class="result_type1 ">
+      <h4>answer_5</h4>
+  </div>
+    <div class="result_discription1">
+    <h2>〇〇〇</h2>
+    <p>
+      　〇〇〇
+    </p>
+  </div>
+  <!-- 帰還ボタン -->
+  <div class="back-btn">
+    <button class="res-btn" onclick="location.href='q_check.html'">もう一度診断する</button>
+    <button class="home-btn" onclick="location.href='../home.html'">ホームに戻る</button>  
+  </div>
+</div>
+
+ </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="func.js"></script>
+</body>
+</html>
